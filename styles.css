@@ -1,0 +1,32 @@
+body{
+    background-color: #FFE6E6;
+}
+body > h1{
+    Color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "SF Pro Display", serif;
+    font-size: 50px;
+}
+#main-div > #first-div{
+    height: 600px;
+    width: 400px;
+    background-color: #7469B6;
+}
+#main-div > #second-div{
+    height: 600px;
+    width: 400px;
+    background-color: #AD88C6;
+}
+#main-div > #third-div{
+    height: 600px;
+    width: 400px;
+    background-color: #E1AFD1;
+}
+#main-div{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-family: "SF Pro Display", serif;
+    color: white;
+}
