@@ -23,9 +23,13 @@ body > h1{
     width: 400px;
     background-color: #E1AFD1;
 }
+#main-div > #first-div, #second-div, #third-div{
+    flex-basis: 500px;
+}
 #main-div{
     display: flex;
     gap: 20px;
+    flex-direction: row;
     text-align: center;
     font-family: "SF Pro Display", serif;
     color: white;
