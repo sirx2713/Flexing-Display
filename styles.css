@@ -11,19 +11,22 @@ body > h1{
 #main-div > #first-div{
     height: 600px;
     width: 400px;
+    order: 1;
     background-color: #7469B6;
 }
 #main-div > #second-div{
     height: 600px;
     width: 400px;
+    order: 2;
     background-color: #AD88C6;
 }
 #main-div > #third-div{
     height: 600px;
     width: 400px;
+    order: 3;
     background-color: #E1AFD1;
 }
-#main-div > #first-div, #second-div, #third-div{
+#main-div > *{
     flex-basis: 500px;
 }
 #main-div{
